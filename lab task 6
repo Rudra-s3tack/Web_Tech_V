@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="ElectroMart online electronics store product catalogue">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroMart - Product Catalogue</title>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul style="list-style: none; display: flex; gap: 20px; padding: 10px; background-color: #f0f0f0;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <fieldset style="margin: 20px; padding: 20px;">
+            <legend><strong>Available Products</strong></legend>
+            
+            <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+                <caption style="font-weight: bold; font-size: 1.5em; margin-bottom: 10px;">ElectroMart Product Catalogue</caption>
+                <thead>
+                    <tr style="background-color: #e0e0e0;">
+                        <th>Product Image</th>
+                        <th>Product Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Product 1 -->
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100" alt="Smartphone Pro X"></td>
+                        <td><strong>Smartphone Pro X</strong></td>
+                        <td>6.5-inch OLED display, 128GB storage, 5000mAh battery</td>
+                        <td>$499</td>
+                        <td><a href="#">Buy Now</a></td>
+                    </tr>
+                    <!-- Product 2 -->
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100" alt="Laptop Ultra 15"></td>
+                        <td><strong>Laptop Ultra 15</strong></td>
+                        <td>15-inch Full HD, Intel i7, 16GB RAM, 512GB SSD</td>
+                        <td>$999</td>
+                        <td><a href="#">Buy Now</a></td>
+                    </tr>
+                    <!-- Product 3 -->
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100" alt="Smartwatch FitPro"></td>
+                        <td><strong>Smartwatch FitPro</strong></td>
+                        <td>Heart rate monitor, GPS tracking, 7-day battery life</td>
+                        <td>$149</td>
+                        <td><a href="#">Buy Now</a></td>
+                    </tr>
+                    <!-- Product 4 -->
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100" alt="Bluetooth Speaker BoomX"></td>
+                        <td><strong>Bluetooth Speaker BoomX</strong></td>
+                        <td>Portable, 10-hour playtime, water-resistant</td>
+                        <td>$89</td>
+                        <td><a href="#">Buy Now</a></td>
+                    </tr>
+                    <!-- Product 5 -->
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100" alt="Tablet Max 10"></td>
+                        <td><strong>Tablet Max 10</strong></td>
+                        <td>10-inch display, 64GB storage, 6000mAh battery</td>
+                        <td>$299</td>
+                        <td><a href="#">Buy Now</a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" style="text-align: right; font-weight: bold;">Total Products: 5</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </fieldset>
+    </main>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 20px; background-color: #f0f0f0; margin-top: 20px;">
+        &copy; 2025 ElectroMart. Contact us at <a href="mailto:info@electromart.com">info@electromart.com</a>
+    </footer>
+</body>
+</html>

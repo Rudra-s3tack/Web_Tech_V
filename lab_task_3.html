@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Registration Page - Donation Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h2>Donor Information</h2>
+<form>
+<div class="row">
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname" required>
+ 
+                <label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname" required>
+</div>
+<div class="row">
+<label for="company">Company:</label>
+<input type="text" id="company" name="company">
+</div>
+<div class="row">
+<label for="address1">Address 1:</label>
+<input type="text" id="address1" name="address1" required>
+<label for="address2">Address 2:</label>
+<input type="text" id="address2" name="address2">
+</div>
+<div class="row">
+<label for="city">City:</label>
+<input type="text" id="city" name="city" required>
+<label for="state">State:</label>
+<select id="state" name="state">
+<option>Select a State</option>
+<option>State 1</option>
+<option>State 2</option>
+</select>
+</div>
+<div class="row">
+<label for="zip">Zip Code:</label>
+<input type="text" id="zip" name="zip" required>
+<label for="country">Country:</label>
+<select id="country" name="country">
+<option>Select a Country</option>
+<option>Country 1</option>
+<option>Country 2</option>
+</select>
+</div>
+<div class="row">
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone">
+<label for="fax">Fax:</label>
+<input type="text" id="fax" name="fax">
+</div>
+<div class="row">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+</div>
+<hr>
+<h3>Donation Amount</h3>
+<div class="row">
+<label>
+<input type="radio" name="amount" value="none"> None
+</label>
+<label>
+<input type="radio" name="amount" value="50"> 50
+</label>
+<label>
+<input type="radio" name="amount" value="75"> 75
+</label>
+<label>
+<input type="radio" name="amount" value="100"> 100
+</label>
+<label>
+<input type="radio" name="amount" value="250"> 250
+</label>
+<label>
+<input type="radio" name="amount" value="other"> Other
+</label>
+<input type="text" name="otherAmount" placeholder="Other Amount">
+</div>
+<div class="row">
+<label>
+<input type="checkbox" name="recurring"> Recurring Donation
+</label>
+<label>
+
+
+                    Monthly
+<input type="checkbox" name="monthly">
+</label>
+<label>
+
+
+                    Credit Card
+<input type="checkbox" name="credit">
+</label>
+<input type="text" name="months" placeholder="For Months">
+</div>
+<hr>
+<h3>Honorarium and Memorial Donation Information</h3>
+<div class="row">
+<label>
+<input type="radio" name="dedication" value="honor"> To Honor
+</label>
+<label>
+<input type="radio" name="dedication" value="memory"> In Memory of
+</label>
+<input type="text" name="dedicateName" placeholder="Name">
+</div>
+<div class="row">
+<label for="ackAddress">Acknowledge Donation to:</label>
+<input type="text" id="ackAddress" name="ackAddress">
+<label for="ackCity">City:</label>
+<input type="text" id="ackCity" name="ackCity">
+<label for="ackState">State:</label>
+<select id="ackState" name="ackState">
+<option>Select a State</option>
+</select>
+<label for="ackZip">Zip:</label>
+<input type="text" id="ackZip" name="ackZip">
+</div>
+<hr>
+<h3>Additional Information</h3>
+<div class="row">
+<label for="pubName">Name (for publication):</label>
+<input type="text" id="pubName" name="pubName">
+</div>
+<div class="row">
+<label>
+<input type="checkbox" name="anonymous"> Remain anonymous
+</label>
+<label>
+<input type="checkbox" name="giftProgram"> Employer matching gift program
+</label>
+<label>
+<input type="checkbox" name="noThankYou"> No thank you letter
+</label>
+</div>
+<div class="row">
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" placeholder="Your questions or feedback"></textarea>
+</div>
+<div class="row">
+<label>How may we contact you?</label>
+<label><input type="checkbox" name="contact" value="email"> E-mail</label>
+<label><input type="checkbox" name="contact" value="postal"> Postal Mail</label>
+<label><input type="checkbox" name="contact" value="telephone"> Telephone</label>
+<label><input type="checkbox" name="contact" value="fax"> Fax</label>
+</div>
+<div class="row">
+<label>Receive newsletters and event info by:</label>
+<label><input type="checkbox" name="newsletter" value="email"> E-mail</label>
+<label><input type="checkbox" name="newsletter" value="postal"> Postal Mail</label>
+</div>
+<div class="row">
+<label><input type="checkbox" name="volunteer"> Information about volunteering</label>
+</div>
+<div class="buttons">
+<button type="reset">Reset</button>
+<button type="submit">Continue</button>
+<button type="submit">Donate</button>
+</div>
+<p class="secure-message">
+
+
+                Donate online with confidence. You are on a secure server. If you have any problems or questions, please contact support.
+</p>
+</form>
+</div>
+</body>
+</html>
+
+ 
